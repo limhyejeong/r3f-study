@@ -7,8 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://limhyejeong.github.io/r3f-study/",
   "dependencies": {
     "@react-three/drei": "^9.88.7",
     "@react-three/fiber": "^8.15.8",
@@ -27,6 +29,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^6.0.0",
     "init": "^0.1.2",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
