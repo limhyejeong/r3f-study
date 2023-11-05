@@ -9,8 +9,11 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/ScrollAnimations" element={<ScrollAnimations />} />
+        <Route path="/r3f-study/" element={<Home />} />
+        <Route
+          path="/r3f-study/ScrollAnimations"
+          element={<ScrollAnimations />}
+        />
       </Routes>
     </BrowserRouter>
   );
