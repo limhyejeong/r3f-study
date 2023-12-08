@@ -13,7 +13,7 @@ export const Header = () => {
               navigate("/r3f-study");
             }}
           >
-            홈
+            Home
           </button>
         </li>
         <li>
@@ -22,7 +22,7 @@ export const Header = () => {
               navigate(-1);
             }}
           >
-            뒤로가기
+            Back
           </button>
         </li>
         <li>
