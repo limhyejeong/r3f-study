@@ -8,7 +8,9 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 
 export function Fish(props) {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF("/models/Fish.gltf");
+  const { nodes, materials, animations } = useGLTF(
+    "/r3f-study/models/Fish.gltf"
+  );
   const { actions } = useAnimations(animations, group);
 
   useEffect(() => {
@@ -65,4 +67,4 @@ export function Fish(props) {
   );
 }
 
-useGLTF.preload("/models/Fish.gltf");
+useGLTF.preload("/r3f-study/models/Fish.gltf");

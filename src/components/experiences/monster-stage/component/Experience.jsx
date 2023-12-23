@@ -27,7 +27,7 @@ export const Experience = () => {
       <MonsterStage
         name="Fish"
         color={"#0390be"}
-        texture={"../textures/anime_water_world.jpg"}
+        texture={"/r3f-study/textures/anime_water_world.jpg"}
         active={active}
         setActive={setActive}
       >
@@ -37,7 +37,7 @@ export const Experience = () => {
       <MonsterStage
         name="Dino"
         color={"#8d3a67"}
-        texture={"../textures/anime_lava_world.jpg"}
+        texture={"/r3f-study/textures/anime_lava_world.jpg"}
         position-x={-2.5}
         rotation-y={Math.PI / 8}
         active={active}
@@ -49,7 +49,7 @@ export const Experience = () => {
       <MonsterStage
         name="Cactoro"
         color={"#6c9244"}
-        texture={"../textures/anime_cactus_forest_world.jpg"}
+        texture={"/r3f-study/textures/anime_cactus_forest_world.jpg"}
         position-x={2.5}
         rotation-y={-Math.PI / 8}
         active={active}
@@ -82,7 +82,7 @@ const MonsterStage = ({
   return (
     <group {...props}>
       <Text
-        font="../fonts/Caprasimo-Regular.ttf"
+        font="/r3f-study/fonts/Caprasimo-Regular.ttf"
         fontSize={0.3}
         position={[0, -1.3, 0.05]}
         anchorY={"bottom"}

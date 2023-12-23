@@ -10,7 +10,6 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Navigate to="/r3f-study/" />} />
         <Route path="/r3f-study/" element={<Home />} />
         <Route
           path="/r3f-study/scroll-animations"
