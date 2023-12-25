@@ -1,8 +1,8 @@
 import { Canvas } from "@react-three/fiber";
-import { Experience } from "./component/Experience";
-import style from "./../../style/ScrollAnimation.module.css";
+import { ScrollAnimations } from "./ScrollAnimations";
+import style from "./style/ScrollAnimation.module.css";
 
-export default function ScrollAnimations() {
+export default function IndexScrollAnimations() {
   return (
     <div className={`${style.section}`}>
       <Canvas
@@ -11,7 +11,7 @@ export default function ScrollAnimations() {
           position: [2.3, 1.5, 2.3],
         }}
       >
-        <Experience />
+        <ScrollAnimations />
       </Canvas>
     </div>
   );

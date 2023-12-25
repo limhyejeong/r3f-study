@@ -2,8 +2,8 @@ import "./App.css";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
-import ScrollAnimations from "./components/experiences/scroll_animations/ScrollAnimations";
-import MonsterStage from "./components/experiences/monster-stage/MonsterStage";
+import IndexScrollAnimations from "./components/IndexScrollAnimations";
+import IndexMonsterStage from "./components/IndexMonsterStage";
 
 function App() {
   return (
@@ -13,9 +13,12 @@ function App() {
         <Route path="/r3f-study/" element={<Home />} />
         <Route
           path="/r3f-study/scroll-animations"
-          element={<ScrollAnimations />}
+          element={<IndexScrollAnimations />}
         />
-        <Route path="/r3f-study/monster-stage" element={<MonsterStage />} />
+        <Route
+          path="/r3f-study/monster-stage"
+          element={<IndexMonsterStage />}
+        />
       </Routes>
     </BrowserRouter>
   );

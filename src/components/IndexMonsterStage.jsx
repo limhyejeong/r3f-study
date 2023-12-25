@@ -1,11 +1,11 @@
 import { Canvas } from "@react-three/fiber";
-import { Experience } from "./component/Experience";
+import { MonsterStage } from "./MonsterStage";
 
-export default function MonsterStage() {
+export default function IndexMonsterStage() {
   return (
     <div className="canvasWrap">
       <Canvas>
-        <Experience />
+        <MonsterStage />
       </Canvas>
     </div>
   );

@@ -10,7 +10,7 @@ export const Header = () => {
         <li>
           <button
             onClick={() => {
-              navigate("/r3f-study");
+              navigate("/r3f-study/");
             }}
           >
             Home

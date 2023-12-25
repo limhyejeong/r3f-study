@@ -15,7 +15,7 @@ import { Dino } from "./Dino";
 import { Cactoro } from "./Cactoro";
 import { easing } from "maath";
 
-export const Experience = () => {
+export const MonsterStage = () => {
   const [active, setActive] = useState(null);
 
   return (
@@ -24,44 +24,44 @@ export const Experience = () => {
       <Environment preset="sunset" />
       <CameraControls />
 
-      <MonsterStage
+      <MonsterStageData
         name="Fish"
         color={"#0390be"}
-        texture={"/r3f-study/textures/anime_water_world.jpg"}
+        texture={"../textures/anime_water_world.jpg"}
         active={active}
         setActive={setActive}
       >
         <Fish scale={0.6} position-y={-1} />
-      </MonsterStage>
+      </MonsterStageData>
 
-      <MonsterStage
+      <MonsterStageData
         name="Dino"
         color={"#8d3a67"}
-        texture={"/r3f-study/textures/anime_lava_world.jpg"}
+        texture={"../textures/anime_lava_world.jpg"}
         position-x={-2.5}
         rotation-y={Math.PI / 8}
         active={active}
         setActive={setActive}
       >
         <Dino scale={0.6} position-y={-1} />
-      </MonsterStage>
+      </MonsterStageData>
 
-      <MonsterStage
+      <MonsterStageData
         name="Cactoro"
         color={"#6c9244"}
-        texture={"/r3f-study/textures/anime_cactus_forest_world.jpg"}
+        texture={"../textures/anime_cactus_forest_world.jpg"}
         position-x={2.5}
         rotation-y={-Math.PI / 8}
         active={active}
         setActive={setActive}
       >
         <Cactoro scale={0.6} position-y={-1} />
-      </MonsterStage>
+      </MonsterStageData>
     </>
   );
 };
 
-const MonsterStage = ({
+const MonsterStageData = ({
   children,
   texture,
   name,
@@ -82,7 +82,7 @@ const MonsterStage = ({
   return (
     <group {...props}>
       <Text
-        font="/r3f-study/fonts/Caprasimo-Regular.ttf"
+        font="../fonts/Caprasimo-Regular.ttf"
         fontSize={0.3}
         position={[0, -1.3, 0.05]}
         anchorY={"bottom"}
