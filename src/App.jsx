@@ -10,15 +10,9 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/r3f-study/" element={<Home />} />
-        <Route
-          path="/r3f-study/scroll-animations"
-          element={<IndexScrollAnimations />}
-        />
-        <Route
-          path="/r3f-study/monster-stage"
-          element={<IndexMonsterStage />}
-        />
+        <Route path="/" element={<Home />} />
+        <Route path="/scroll-animations" element={<IndexScrollAnimations />} />
+        <Route path="/monster-stage" element={<IndexMonsterStage />} />
       </Routes>
     </BrowserRouter>
   );

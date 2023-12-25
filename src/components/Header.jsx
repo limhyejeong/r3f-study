@@ -10,7 +10,7 @@ export const Header = () => {
         <li>
           <button
             onClick={() => {
-              navigate("/r3f-study/");
+              navigate("/");
             }}
           >
             Home
@@ -28,7 +28,7 @@ export const Header = () => {
         <li>
           <button
             onClick={() => {
-              navigate("/r3f-study/scroll-animations");
+              navigate("/scroll-animations");
             }}
           >
             Experience 1
@@ -37,7 +37,7 @@ export const Header = () => {
         <li>
           <button
             onClick={() => {
-              navigate("/r3f-study/monster-stage");
+              navigate("/monster-stage");
             }}
           >
             Experience 2
