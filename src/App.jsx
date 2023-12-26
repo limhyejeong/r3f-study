@@ -2,8 +2,8 @@ import "./App.css";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
-import IndexScrollAnimations from "./components/IndexScrollAnimations";
-import IndexMonsterStage from "./components/IndexMonsterStage";
+import IndexScrollAnimations from "./components/ScrollAnimations/IndexScrollAnimations";
+import IndexMonsterStage from "./components/MonsterStage/IndexMonsterStage";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { ScrollAnimations } from "./ScrollAnimations";
-import style from "./style/ScrollAnimation.module.css";
+import style from "../style/ScrollAnimation.module.css";
 
 export default function IndexScrollAnimations() {
   return (
