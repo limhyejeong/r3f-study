@@ -1,8 +1,8 @@
 import { Canvas } from "@react-three/fiber";
-import { ScrollAnimations } from "./ScrollAnimations";
-import style from "../style/ScrollAnimation.module.css";
+import { ScrollOffice } from "./ScrollOffice";
+import style from "../style/ScrollOffice.module.css";
 
-export default function IndexScrollAnimations() {
+export default function IndexScrollOffice() {
   return (
     <div className={`${style.section}`}>
       <Canvas
@@ -11,7 +11,7 @@ export default function IndexScrollAnimations() {
           position: [2.3, 1.5, 2.3],
         }}
       >
-        <ScrollAnimations />
+        <ScrollOffice />
       </Canvas>
     </div>
   );

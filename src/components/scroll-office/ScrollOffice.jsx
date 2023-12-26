@@ -2,7 +2,7 @@ import { OrbitControls, ScrollControls } from "@react-three/drei";
 import { Office } from "./Office";
 import { Overlay } from "./Overlay";
 
-export const ScrollAnimations = () => {
+export const ScrollOffice = () => {
   return (
     <>
       <ambientLight intensity={2} />

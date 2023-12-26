@@ -28,10 +28,10 @@ export const Header = () => {
         <li>
           <button
             onClick={() => {
-              navigate("/scroll-animations");
+              navigate("/scroll-office");
             }}
           >
-            Experience 1
+            Scroll office
           </button>
         </li>
         <li>
@@ -40,7 +40,16 @@ export const Header = () => {
               navigate("/monster-stage");
             }}
           >
-            Experience 2
+            Moster stage
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              navigate("/animate-model");
+            }}
+          >
+            Animate model
           </button>
         </li>
       </ul>

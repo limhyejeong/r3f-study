@@ -12,6 +12,8 @@
   },
   "homepage": "https://r3f-study.vercel.app",
   "dependencies": {
+    "@mantine/core": "^7.3.2",
+    "@mantine/hooks": "^7.3.2",
     "@react-three/drei": "^9.88.7",
     "@react-three/fiber": "^8.15.8",
     "gsap": "^3.12.2",
